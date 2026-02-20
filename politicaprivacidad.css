@@ -1,0 +1,30 @@
+.legal {
+  background: #f7f9fc;
+  padding: 80px 40px;
+}
+
+.contenedor-legal {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 50px;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contenedor-legal h1 {
+  color: #0a3d91;
+  margin-bottom: 30px;
+}
+
+.contenedor-legal h2 {
+  color: #0a3d91;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.contenedor-legal p {
+  color: #555;
+  line-height: 1.6;
+}

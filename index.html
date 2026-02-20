@@ -120,13 +120,20 @@
 
             <form>
                 <label>Nombre</label>
-                <input type="text" placeholder="Tu nombre" required>
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
                 <label>Correo</label>
-                <input type="email" placeholder="Tu correo" required>
+                <input type="email" name="email" placeholder="Tu correo" required>
                 <label>Teléfono</label>
-                <input type="text" placeholder="Tu teléfono" required>
+                <input type="text" name="telefono" placeholder="Tu teléfono" required>
                 <label>Mensaje</label>
-                <textarea rows="6" placeholder="Escribe tu mensaje aquí..."></textarea>
+                <textarea name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+                <div class="privacidad">
+                    <input type="checkbox" id="privacidad" name="privacidad" required>
+                    <label>
+                        He leído y acepto la <a href="politicaprivacidad.html" target="_blank">Política de Privacidad</a>
+                    </label>
+                </div>
                 <button type="submit">Enviar</button>
             </form>
         </div>
