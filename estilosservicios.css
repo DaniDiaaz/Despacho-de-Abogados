@@ -276,3 +276,148 @@ nav a:hover {
     width: 60px;
     height: 60px;
 }
+@media (max-width: 900px) {
+
+  /* Header */
+  header .contenido {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  #logo {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #logo h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav ul {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin-left: 0;
+    font-size: 16px;
+  }
+    /* Footer */
+  .footer-contenido {
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 6%;
+  }
+}
+@media (max-width: 600px) {
+
+  /* Header */
+  #logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #logo h1 {
+    font-size: 16px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  .CTA-boton {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+    /* Footer */
+  .footer-col h3,
+  h4 {
+    font-size: 17px;
+  }
+
+  .footer-final {
+    font-size: 12px;
+    padding: 14px 10px;
+  }
+}
+@media (max-width: 900px) {
+  .hero-servicios {
+    padding: 70px 20px;
+  }
+
+  .hero-servicios h2 {
+    font-size: 36px;
+  }
+
+  .hero-servicios p {
+    font-size: 17px;
+  }
+
+  .contenedor-servicios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-servicios h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-servicios {
+    padding: 50px 16px;
+  }
+
+  .hero-servicios h2 {
+    font-size: 26px;
+  }
+
+  .hero-servicios p {
+    font-size: 15px;
+  }
+
+  .lista-servicios {
+    padding: 50px 16px;
+  }
+
+  .titulo-seccion {
+    font-size: 24px;
+  }
+
+  .contenedor-servicios {
+    grid-template-columns: 1fr;
+  }
+
+  .servicio {
+    padding: 22px 18px;
+  }
+
+  .servicio p {
+    font-size: 16px;
+  }
+
+  .cta-servicios {
+    padding: 50px 16px;
+  }
+
+  .cta-servicios h2 {
+    font-size: 24px;
+  }
+
+  .cta-servicios p {
+    font-size: 16px;
+  }
+
+  .btn-contacto {
+    font-size: 16px;
+    padding: 12px 22px;
+  }
+}

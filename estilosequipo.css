@@ -99,28 +99,139 @@ nav a:hover {
     line-height: 1.5;
 }
 .equipo-carta {
-    padding: 50px 60px;
-    max-width: 900px;
-    margin: auto;
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.equipo-carta-inner {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+}
+
+.equipo-carta-header {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 36px 40px;
+  border-bottom: 1px solid #f0f0f0;
+  border-left: 5px solid #d4af37;
+}
+
+.equipo-avatar {
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  background: linear-gradient(135deg, #0a3d91, #1a5dbf);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equipo-avatar i {
+  font-size: 36px;
+  color: #d4af37;
+}
+
+.equipo-carta-header h3 {
+  font-size: 26px;
+  color: #0a3d91;
+  margin-bottom: 4px;
+}
+
+.equipo-carta-header .cargo {
+  display: inline-block;
+  font-size: 14px;
+  color: #c9a86a;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.equipo-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.equipo-tags span {
+  background: #f0f4ff;
+  color: #0a3d91;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid #c7d6f7;
+}
+
+.equipo-carta-body {
+  padding: 36px 40px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.equipo-carta-body p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.equipo-carta-body p:last-child {
+  margin-bottom: 0;
+}
+
+.equipo-carta-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 28px 40px;
+  background: #fafbff;
+}
+
+.equipo-dato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.dato-numero {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0a3d91;
+  line-height: 1;
+}
+
+.dato-label {
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .equipo-carta-header {
+    flex-direction: column;
     text-align: center;
-}
-.equipo-carta h3 {
-    font-size: 30px;
-    color: #0a3d91;
-    margin-bottom: 5px;
-}
-.equipo-carta .cargo {
-    display: inline-block;
-    font-size: 16px;
-    color: #c9a86a;
-    font-weight: 600;
-    margin-bottom: 25px;
-}
-.equipo-carta p {
-    font-size: 20px;
-    line-height: 1.5;
-    color: #1b2a41;
-    margin-bottom: 20Spx;
+    padding: 28px 20px;
+  }
+
+  .equipo-tags {
+    justify-content: center;
+  }
+
+  .equipo-carta-body {
+    padding: 28px 20px;
+  }
+
+  .equipo-carta-footer {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 24px 20px;
+  }
 }
 .cta-servicios {
     text-align: center;
@@ -228,4 +339,150 @@ nav a:hover {
 .footer-col img {
     width: 60px;
     height: 60px;
+}
+@media (max-width: 900px) {
+
+  /* Header */
+  header .contenido {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  #logo {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #logo h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav ul {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin-left: 0;
+    font-size: 16px;
+  }
+    /* Footer */
+  .footer-contenido {
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 6%;
+  }
+}
+@media (max-width: 600px) {
+
+  /* Header */
+  #logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #logo h1 {
+    font-size: 16px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  .CTA-boton {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+    .footer-col h3,
+  h4 {
+    font-size: 17px;
+  }
+
+  .footer-final {
+    font-size: 12px;
+    padding: 14px 10px;
+  }
+}
+@media (max-width: 900px) {
+  header .contenido {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  #logo {
+    flex-direction: column;
+    gap: 8px;
+  }
+  #logo h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+  nav ul {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav a {
+    margin-left: 0;
+    font-size: 16px;
+  }
+  .footer-contenido {
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 6%;
+  }
+  #equipo {
+    padding: 70px 20px;
+  }
+  #equipo h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  #logo img {
+    width: 60px;
+    height: 60px;
+  }
+  #logo h1 {
+    font-size: 16px;
+  }
+  .CTA-boton {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  #equipo {
+    padding: 50px 16px;
+  }
+  #equipo h2 {
+    font-size: 28px;
+  }
+  #equipo p {
+    font-size: 16px;
+  }
+  .cta-servicios h2 {
+    font-size: 26px;
+  }
+  .cta-servicios p {
+    font-size: 16px;
+  }
+  .footer-contenido {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 6%;
+  }
 }

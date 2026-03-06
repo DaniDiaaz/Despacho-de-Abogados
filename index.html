@@ -35,36 +35,44 @@
             <h1>Compromiso, experiencia y confianza</h1>
             <p>Somos un despacho con más de 35 años de experiencia, donde la excelencia y la dedicación definen cada uno de nuestros servicios. Nuestro objetivo es ofrecer un trato cercano, transparente y de total confianza. Si necesita resolver cualquier cuestión legal, estaremos a su disposición para asesorarle y acompañarle en todo el proceso.</p>
         </div>
-        </div>
     </section>
 <!--Final del hero-->
 <!--Inicio sección Por qué elegirnos-->
 <section id="por-que-elegirnos">
-    <div class="elegirnos-contenido">
-        <h2>¿Por qué elegirnos?</h2>
-        <div class="elegirnos-grid">
-            <div class="elegirnos-item">
-                <i class="fa-solid fa-user-check"></i>
-                <h3>Más de 35 años de experiencia</h3>
-                <p>Trayectoria sólida ofreciendo soluciones legales eficaces en diversas áreas del Derecho.</p>
-            </div>
-             <div class="elegirnos-item">
-                <i class="fa-solid fa-scale-balanced"></i>
-                <h3>Trato cercano y personalizado</h3>
-                <p>Cada caso es único. Escuchamos, analizamos y actuamos con total compromiso.</p>
-            </div>
-            <div class="elegirnos-item">
-                <i class="fa-solid fa-briefcase"></i>
-                <h3>Confianza y resultados</h3>
-                <p>Profesionalidad y transparencia que generan la confianza de nuestros clientes.</p>
-            </div>
-              <div class="elegirnos-item">
-                <i class="fa-solid fa-bolt"></i>
-                <h3>Atención rápida y eficaz</h3>
-                <p>Comunicación clara y actuación inmediata para resolver tus necesidades legales.</p>
-            </div>
+  <div class="elegirnos-contenido">
+    <h2>¿Por qué elegirnos?</h2>
+    <p class="elegirnos-subtitulo">Más de tres décadas siendo el respaldo legal de nuestros clientes</p>
+    <div class="elegirnos-grid">
+      <div class="elegirnos-item">
+        <span class="numero">01</span>
+        <div class="elegirnos-texto">
+          <h3>Más de 35 años de experiencia</h3>
+          <p>Trayectoria sólida ofreciendo soluciones legales eficaces en diversas áreas del Derecho.</p>
         </div>
+      </div>
+      <div class="elegirnos-item">
+        <span class="numero">02</span>
+        <div class="elegirnos-texto">
+          <h3>Trato cercano y personalizado</h3>
+          <p>Cada caso es único. Escuchamos, analizamos y actuamos con total compromiso.</p>
+        </div>
+      </div>
+      <div class="elegirnos-item">
+        <span class="numero">03</span>
+        <div class="elegirnos-texto">
+          <h3>Confianza y resultados</h3>
+          <p>Profesionalidad y transparencia que generan la confianza de nuestros clientes.</p>
+        </div>
+      </div>
+      <div class="elegirnos-item">
+        <span class="numero">04</span>
+        <div class="elegirnos-texto">
+          <h3>Atención rápida y eficaz</h3>
+          <p>Comunicación clara y actuación inmediata para resolver tus necesidades legales.</p>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 <!--Final sección Por qué elegirnos-->
 <!--Inicio sección servicios-->
@@ -112,36 +120,104 @@
     </section>
 <!--Final sección servicios-->
 <!--Inicio sección formulario y la imagen-->
-    <section id="contacto-dos-columnas">
-    <!--Formulario-->
-        <div class="formulario">
-            <h2>Contacta con nosotros</h2>
-            <p>Déjanos tus datos y contactaremos contigo lo antes posible</p>
+<section id="contacto-dos-columnas">
+  <div class="contacto-wrapper">
 
-            <form>
-                <label>Nombre</label>
-                <input type="text" name="nombre" placeholder="Tu nombre" required>
-                <label>Correo</label>
-                <input type="email" name="email" placeholder="Tu correo" required>
-                <label>Teléfono</label>
-                <input type="text" name="telefono" placeholder="Tu teléfono" required>
-                <label>Mensaje</label>
-                <textarea name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..."></textarea>
+    <div class="contacto-header">
+      <h2>¿Hablamos?</h2>
+      <p>Cuéntanos tu caso y te responderemos lo antes posible</p>
+    </div>
 
-                <div class="privacidad">
-                    <input type="checkbox" id="privacidad" name="privacidad" required>
-                    <label>
-                        He leído y acepto la <a href="politicaprivacidad.html" target="_blank">Política de Privacidad</a>
-                    </label>
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
+    <div class="contacto-cuerpo">
+
+      <!-- Formulario -->
+      <div class="formulario">
+        <form>
+          <div class="form-fila">
+            <div class="form-grupo">
+              <label>Nombre</label>
+              <input type="text" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-grupo">
+              <label>Teléfono</label>
+              <input type="text" name="telefono" placeholder="Tu teléfono" required>
+            </div>
+          </div>
+          <div class="form-grupo">
+            <label>Correo</label>
+            <input type="email" name="email" placeholder="Tu correo" required>
+          </div>
+          <div class="form-grupo">
+            <label>Mensaje</label>
+            <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+          </div>
+          <div class="privacidad">
+            <input type="checkbox" id="privacidad" name="privacidad" required>
+            <label for="privacidad">
+              He leído y acepto la <a href="politicaprivacidad.html" target="_blank">Política de Privacidad</a>
+            </label>
+          </div>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+
+      <!-- Columna derecha -->
+      <div class="contacto-info">
+        <div class="contacto-info-bloque">
+          <h3>Contacto directo</h3>
+          <ul class="contacto-info-lista">
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <span class="info-label">Teléfono</span>
+                <span>918 800 495 / 651 186 039 / 674589218</span>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <span>diazchico@diazchico.com</span>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <span class="info-label">Dirección</span>
+                <span>Calle Quevedo 5, bajo B, Alcalá de Henares, 28807, Madrid</span>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-clock"></i>
+              <div>
+                <span class="info-label">Horario</span>
+                <span>Lunes a Viernes, 9:00 – 19:00</span>
+              </div>
+            </li>
+          </ul>
         </div>
-    <!--Imagen del lado-->
-        <div id="imagen">
-            <img src="despacho.jpg" alt="Foto columna">
+
+        <div class="contacto-divisor"></div>
+
+        <div class="contacto-cifras">
+          <div class="cifra">
+            <span class="cifra-numero">35+</span>
+            <span class="cifra-label">años de experiencia</span>
+          </div>
+          <div class="cifra">
+            <span class="cifra-numero">6</span>
+            <span class="cifra-label">áreas de práctica</span>
+          </div>
+          <div class="cifra">
+            <span class="cifra-numero">100%</span>
+            <span class="cifra-label">compromiso con el cliente</span>
+          </div>
         </div>
-    </section>
+      </div>
+
+    </div>
+  </div>
+</section>
 <!--Final sección formulario y la imagen-->
 <!--Inicio del footer-->
     <footer id="footer">
@@ -176,9 +252,36 @@
         </div>
         <!--Pie de página final-->
         <div class="footer-final">
-            <p>© 2025 Germán Díaz Abogados — Todos los derechos reservados.</p>
+            <p>© 2026 Germán Díaz Abogados — Todos los derechos reservados.</p>
+            <p><a href="politicacookies.html" target="_blank">Política de Cookies</a></p>
+            <p><a href="avisolegal.html" target="_blank">Aviso legal</a></p>
         </div>
     </footer>
 <!--Final del footer-->
+<div class="cookie-banner" id="cookieBanner">
+  <p>
+    Esta web utiliza cookies para mejorar tu experiencia.
+    Puedes consultar nuestra 
+    <a href="politicacookies.html">Política de Cookies</a>.
+  </p>
+
+  <button id="acceptCookies">Aceptar</button>
+</div>
+
+<script>
+  const banner = document.getElementById("cookieBanner");  // ✅ ID correcto
+  const button = document.getElementById("acceptCookies"); // ✅ ID correcto
+
+  if (!localStorage.getItem("cookiesAccepted")) {
+    banner.style.display = "flex";
+  } else {
+    banner.style.display = "none";
+  }
+
+  button.addEventListener("click", function () {
+    localStorage.setItem("cookiesAccepted", "true");
+    banner.style.display = "none";
+  });
+</script>
 </body>
 </html>
